@@ -1,0 +1,55 @@
+@font-face{
+	font-family: 'Znikomit';
+	src: url('../font/Znikomit.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+h1{
+	color: #3A0064;
+	font-size: 48px;
+	font-family: 'Constantine', serif;
+}
+p{
+	color:  black;
+	font-size: 24px;
+	font-family: 'AMG Anahit', serif;
+}
+span{
+	background:  #C890F1;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family: 'Znikomit': normal;
+	display: block;
+	margin: 15px 0;
+}
+div{
+	width: 80%;
+	margin: auto;
+	background-color: #F3E3FF;
+	padding: 30px;
+}
+img{
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: 15px 0;
+}
+body{
+	font-size: 20px;
+	background-color: #926AAF;
+}
+style{
+	fig 
+    text-align: center;
+}
+.btn {
+    display: table; /* Строчно-блочный элемент */
+    background: #E0B5FF; /* Серый цвет фона */
+    color: black; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border: 3px solid Indigo; /* Скругляем уголки */
+   }
