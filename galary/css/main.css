@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Rubik+Microbe&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #9c8d5a;
+}
+.main{
+	background-color: #E9967A;
+	display: flex;
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 3);
+	flex-wrap: wrap;
+}
+.item{
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+	max-height: 270px;
+	max-width: 480px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(50vw - 10px); 
+	background-color: #DCDCDC;
+	/*margin: 5px;*/
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	font-size: 64px;
+	text-align: center;	
+	width: 100%;
+	padding: 30px 0;
+	font-family: 'Rubik Microbe', cursive;
+	color: #FFFF00;
+}
+.img_link{
+	margin: 5px;
+	display: block;
+	opacity: 0.9;
+	transition: opacity 1.5s ease, transform 0.5s ease-in, box-shadow 0.4s ease-out;
+}
+
+@media all and(max-width 768px){
+ 	.item{
+ 		max-width:initial;
+ 		max-height: initial;
+ 		height: calc(90vw - 10px);
+		width: calc(90vw / 16 * 9);
+ 	}
+ 	.image_link{
+ 		margin: auto;
+ 	}
+}
+@media all and(min-width: 1000px)
+{
+	.img_link:hover{
+	opacity: 1;
+	transform: scale(1.0) rotate(10deg);
+	z-index: 10;
+	box-shadow:0 0 200px rgba(0, 255, 255, 0.4);
+	}
+}
+.link_wrapper{
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.author{
+	color: red;
+	text-decoration: none;
+	border-bottom:2px solid transparent;
+	transition: 0.5s;
+	display: block;
+}
+.author:hover{
+	border-color: black;
+}
